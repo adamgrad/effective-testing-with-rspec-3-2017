@@ -1,2 +1,7 @@
-
 spec/examples.txt
+db/*.db
+bin
+bundle
+log
+
+db/development.rb
