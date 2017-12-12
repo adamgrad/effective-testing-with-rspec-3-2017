@@ -1,0 +1,117 @@
+# effective-testing-with-rspec-3-2017
+
+### Part I. Getting Started
+- [X] 1. Getting Started With RSpec
+  - Installing RSpec
+  - Your First Spec
+  - Understanding Failure
+  - Sharing Setup (But Not Sandwiches)
+  - Your Turn
+- [X] 2. From Writing Specs to Running Them
+  - Customizing Your Specs’ Output
+  - Identifying Slow Examples
+  - Running Just What You Need
+  - Marking Work in Progress
+  - Your Turn
+- [X] 3. The RSpec Way
+  - What Your Specs Are Doing for You
+  - Comparing Costs and Benefits
+  - Different Types of Specs
+  - Guidelines
+### Part II. Building an App With RSpec 3
+- [X] 4. Starting On the Outside: Acceptance Specs
+  - First Steps
+  - Deciding What to Test First
+  - Checking the Response
+  - Filling In the Response Body
+  - Querying the Data
+  - Saving Your Progress: Pending Specs
+  - Your Turn
+- [X] 5. Testing in Isolation: Unit Specs
+  - From Acceptance Specs to Unit Specs
+  - Filling In the First Spec
+  - Handling Success
+  - Refactoring
+  - Handling Failure
+  - Defining the Ledger
+  - Your Turn
+- [X] 6. Getting Real: Integration Specs
+  - Hooking Up the Database
+  - Testing Ledger Behavior
+  - Testing the Invalid Case
+  - Isolating Your Specs Using Database Transactions
+  - Filling In the Behavior
+  - Querying Expenses
+  - Ensuring the Application Works for Real
+  - Your Turn
+### Part III. RSpec Core
+- [ ] 7. Structuring Code Examples
+  - Getting the Words Right
+  - Sharing Common Logic
+  - Sharing Example Groups
+  - Your Turn
+- [ ] 8. Slicing and Dicing Specs with Metadata
+  - Defining Metadata
+  - Reading Metadata
+  - Selecting Which Specs to Run
+  - Sharing Code Conditionally
+  - Changing How Your Specs Run
+  - Your Turn
+- [ ] 9. Configuring RSpec
+  - Command-Line Configuration
+  - Setting Command-Line Defaults
+  - Using a Custom Formatter
+  - RSpec.configure
+  - Your Turn
+### Part IV. RSpec Expectations
+- [ ] 10. Exploring RSpec Expectations
+  - Parts of an Expectation
+  - How Matchers Work
+  - Composing Matchers
+  - Generated Example Descriptions
+  - Your Turn
+- [ ] 11. Matchers Included in RSpec Expectations
+  - Primitive Matchers
+  - Higher-Order Matchers
+  - Block Matchers
+  - Your Turn
+- [ ] 12. Creating Custom Matchers
+  - Delegating to Existing Matchers Using Helper Methods
+  - Defining Matcher Aliases
+  - Negating Matchers
+  - Using the Matcher DSL
+  - Defining a Matcher Class
+  - Your Turn
+### Part V. RSpec Mocks
+- [ ] 13. Understanding Test Doubles
+  - Types of Test Doubles
+  - Usage Modes: Mocks, Stubs, and Spies
+  - Origins: Pure, Partial, and Verifying Doubles
+  - Your Turn
+- [ ] 14. Customizing Test Doubles
+  - Configuring Responses
+  - Setting Constraints
+  - Your Turn
+- [ ] 15. Using Test Doubles Effectively
+  - Constructing Your Test Environment
+  - Stubject (Stubbing the Subject)
+  - Using Partial Doubles Effectively
+  - Connecting the Test Subject to Its Environment
+  - The Risks of Mocking Third-Party Code
+  - High-Fidelity Fakes
+  - Faking I/O with StringIO
+  - Wrapping a Third-Party Dependency
+  - Your Turn
+- [ ] A1. RSpec and the Wider Ruby Ecosystem
+  - Bundler
+  - Rake
+  - Using Parts of RSpec With Other Test Frameworks
+- [ ] A2. Using RSpec with Rails
+  - Installation
+  - Using rspec-rails
+  - Spec Types
+  - Spec Types Cheat Sheet
+  - Rails Matchers Cheat Sheet
+- [ ] A3. Matcher Cheat Sheet
+  - Value Matchers
+  - Block Matchers
